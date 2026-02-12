@@ -3,73 +3,51 @@
     font-family: sans-serif;
     font-weight: lighter;
     text-decoration: none;
-    /* color: white; */
-    /* height: 20vh; */
 }
-/* div {
-  outline: 1px solid red;
-} */
+
 
 .blue_box {
     background-color: #0047BA;
     height: 120px;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex: 600px 20px; */
-    /* grid-template-columns: auto auto auto auto auto auto ; */
-    /* padding: 0px; */
-    /* grid-column: px; */
     justify-content: space-between;
     gap: 2px;
     color: white;
-    /* flex-wrap: wrap; */
-    /* flex: 30px 200px; */
 }
+
 .blue_box_a {
     color: white;
     display: inline-block;
     margin-top: 55px;
     margin-left: 18px;
-    /* display: flex;
-    flex-wrap: wrap;
-    flex: 30px 200px; */
 }
+
 .blue_box_a:hover {
     color: #8eaddf;
 }
-.lang{
-    display: flex; 
-    /* grid-template-columns: 1fr; */
-    /* grid-row: 20px; */
+
+.lang {
+    display: flex;
     gap: 12px;
     align-items: center;
     padding-top: 10px;
     padding-right: 140px;
-    /* border: 2px solid black; */
-    /* border-radius: 100px; */
 }
-.lang_share{
+
+.lang_share {
     border: 2px solid #8eaddf;
-     border-radius: 20px; 
-    padding: 3px; 
+    border-radius: 20px;
+    padding: 3px;
     font-size: 13px;
 }
-.lang_share_i{
+
+.lang_share_i {
     border: 2px solid #8eaddf;
-    border-radius: 20px; 
-    padding: 2px; 
+    border-radius: 20px;
+    padding: 2px;
     font-size: 15px;
 }
-/* .elements_1{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-row: 3px; */
-/* column-gap: 2px; */
-/* margin-left: 30px; */
-/* padding-top: px; */
-/* margin-top: 100px; */
-/* padding-left: 100px; */
-/* } */
+
 .water-bg {
     background-image: url(/Gemini_Generated_Image_qu4m4gqu4m4gqu4m.png);
     background-size: cover;
@@ -77,27 +55,19 @@ grid-row: 3px; */
     height: 90vh;
     width: 100vw;
     display: flex;
-    /* position: relative; */
-    /* overflow: visible; */
-    /* min-height: 100vh; */
 }
+
 .bottles {
     position: absolute;
-    /* height: 350px; */
-    /* width: 450px; */
     top: 85px;
     display: block;
-    /* border: 2px solid red; */
-    /* z-index: 5; */
-    /* max-height: none; */
-    /* margin: 10px; */
-    /* bottom: 400px; */
+
 }
+
 .grid_box {
     font-size: small;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: auto; */
     gap: 2px;
     padding-left: 250px;
     padding-top: 50px;
@@ -106,57 +76,49 @@ grid-row: 3px; */
     line-height: 25px;
     align-content: start;
 }
+
 .gbox_items,
 .gbox_items:visited,
 .gbox_items:active,
 .gbox_items:focus {
     color: #0047BA;
-    /* display: block; */
+
 }
+
 .gbox_items:hover {
     color: lightskyblue;
 }
+
 .box1 {
-    /* display: grid; */
     color: #0047BA;
-    /* background-color: lightsteelblue; */
-    /* height: 150px; */
-    /* padding: 40px; */
-    /* top: 10; */
     margin: 0;
 }
+
 .box2 {
-    /* display: grid; */
     color: #0047BA;
-    /* background-color: lightsteelblue; */
-    /* height: 150px; */
-    /* padding: 40px; */
-    /* top: 10; */
     margin: 0;
 }
+
 .box3 {
-    /* display: grid; */
+
     color: #0047BA;
-    /* background-color: lightsteelblue; */
-    /* height: 150px; */
-    /* padding: 40px; */
-    /* top: 10; */
     margin: 0;
 }
+
 .box4 {
     padding-left: 85px;
     margin: 0;
 }
+
 .social {
     height: 28px;
     width: 28px;
     margin: 0;
-    /* padding-bottom: 20px; */
-    /* padding-left: 0px; */
+
 }
+
 .btn1 {
     background: transparent;
-    /* display: inline; */
     position: absolute;
     top: 68vh;
     left: 870px;
@@ -167,12 +129,11 @@ grid-row: 3px; */
     color: #0047BA;
     height: 45px;
     width: 190px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+
 }
+
 .btn2 {
     background: transparent;
-    /* display: inline; */
     position: absolute;
     top: 68vh;
     left: 1070px;
@@ -191,9 +152,11 @@ grid-row: 3px; */
     color: white;
     cursor: pointer;
 }
+
 a:hover {
     color: #8eaddf;
 }
+
 .final_div {
     background-color: white;
     height: 60px;
@@ -208,12 +171,12 @@ a:hover {
     align-items: end;
     padding-bottom: 20px;
 }
+
 .cookie {
     font-family: sans-serif;
     font-size: 17px;
     color: blue;
     text-decoration: underline;
-    /* text-align: left; */
     display: flex;
     position: fixed;
     margin-top: 80vh;
